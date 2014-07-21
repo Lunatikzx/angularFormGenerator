@@ -1,0 +1,6 @@
+<div class="form-group field_required" >
+    <label for="{{content.fieldName}}">{{ content.question | translate }}<span class="field_required">*</span></label>
+    <select ng-model="content.defaultValue" ng-options="items.text for items in content.fieldData"></select>
+
+    <div ng-if="content.info "> {{ content.info | translate}}</div>
+</div>

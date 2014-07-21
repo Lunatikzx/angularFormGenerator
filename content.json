@@ -1,0 +1,127 @@
+{
+    "sections":{
+        "section":[ {
+            "nomSection": "Conducteurs",
+            "i18nSection": "lang.Conducteurs",
+            "questions": [
+                {
+                    "id": "1",
+                    "fieldName": "Example",
+                    "fieldType": "text",
+                    "fieldData": "",
+                    "question": "lang.question",
+                    "defaultValue": "default Value",
+                    "info": "lang.infobubble",
+                    "parameters": [
+                        {
+                            "validations": "required,numeric,isPhone"
+                        }
+                    ],
+                    "parentField": {
+                        "id": "2",
+                        "fieldName": "lang.fieldName",
+                        "fieldType": "radio",
+                        "question": "lang.question",
+                        "defaultValue": "default value",
+                        "info": "lang.infoBubble",
+                        "parameters": [
+                            {
+                                "validations": [
+                                    "required",
+                                    "numeric",
+                                    "isPhone"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "2",
+                    "fieldName": "Example",
+                    "fieldType": "list",
+                    "fieldData": [
+                        {
+                            "value": "1",
+                            "text": "come off your tree monkey"
+                        },
+                        {
+                            "value": "2",
+                            "text": "climb up your tree monkey"
+                        }
+                    ],
+                    "question": "lang.question",
+                    "defaultValue":"test1",
+                    "info": "",
+                    "parameters": [
+                        {
+                            "validations": "required,numeric,isPhone"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nomSection": "Habitations",
+            "i18nSection": "lang.Conducteurs",
+            "questions": [
+                {
+                    "id": "1",
+                    "fieldName": "Example",
+                    "fieldType": "text",
+                    "fieldData": "",
+                    "question": "lang.question",
+                    "defaultValue": "default Value",
+                    "info": "lang.infobubble",
+                    "parameters": [
+                        {
+                            "validations": "required,numeric,isPhone"
+                        }
+                    ],
+                    "parentField": {
+                        "id": "2",
+                        "fieldName": "lang.fieldName",
+                        "fieldType": "radio",
+                        "question": "lang.question",
+                        "defaultValue": "default value",
+                        "info": "lang.infoBubble",
+                        "parameters": [
+                            {
+                                "validations": [
+                                    "required",
+                                    "numeric",
+                                    "isPhone"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "2",
+                    "fieldName": "Example",
+                    "fieldType": "list",
+                    "fieldData": [
+                        {
+                            "value": "1",
+                            "text": "come off your tree monkey"
+                        },
+                        {
+                            "value": "2",
+                            "text": "climb up your tree monkey"
+                        }
+                    ],
+                    "question": "lang.question",
+                    "defaultValue": [
+                        "test1",
+                        "test2"
+                    ],
+                    "info": "lang.infobubble",
+                    "parameters": [
+                        {
+                            "validations": "required,numeric,isPhone"
+                        }
+                    ]
+                }
+            ]
+        }]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "lang":{
+        "lang.Conducteurs":"Conducteurs" ,
+        "lang.question":"Ceci est une question traduite",
+        "lang.infobubble":"Ceci est une infobulle",
+        "lang.fieldName":"Le nom d'un champ traduit"
+    }
+}
