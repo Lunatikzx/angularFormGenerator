@@ -1,7 +1,7 @@
 {
     "sections":{
         "section":[ {
-            "nomSection": "Conducteurs",
+            "nomSection": "Weird stuff 1",
             "i18nSection": "lang.Conducteurs",
             "questions": [
                 {
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "nomSection": "Habitations",
+            "nomSection": "Weird Stuff 2",
             "i18nSection": "lang.Conducteurs",
             "questions": [
                 {
